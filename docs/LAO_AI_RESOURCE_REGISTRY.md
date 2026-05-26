@@ -1,6 +1,6 @@
-# Lao AI Ecosystem Resource Registry
+# Lao AI Resource Registry
 
-This is a neutral registry template for Lao AI, Lao NLP, OCR, benchmark, dictionary, and prompt/plugin resources. It is not an aggressive competitor tracker.
+This document tracks public Lao AI, Lao NLP, Lao OCR, Lao language, and related technical resources that may be useful for LAKI research and methodology planning.
 
 Entries should be verified before being treated as current or authoritative. Initial known examples are marked `to verify`.
 

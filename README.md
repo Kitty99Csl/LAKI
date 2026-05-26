@@ -53,7 +53,9 @@ This principle applies to examples, methodology notes, registry entries, parser 
 
 ## Development Status
 
-This public repository is in early development. It currently contains public documentation, methodology notes, safety principles, fake examples, and issue templates. It does not publish private datasets, production review data, raw source collections, or sensitive materials.
+This public repository is in early development. It currently contains public documentation, methodology notes, safety principles, and fake examples. It does not publish private datasets, production review data, raw source collections, or sensitive materials.
+
+Public contribution is not fully open yet. For now, LAKI is publishing its principles, methodology, and safety framework before accepting external data contributions.
 
 ## Repository Structure
 
@@ -76,13 +78,11 @@ This public repository is in early development. It currently contains public doc
 │   ├── SOURCE_AUTHORITY_MODEL.lo.md
 │   ├── REVIEW_WORKFLOW.md
 │   ├── REVIEW_WORKFLOW.lo.md
-│   └── COMPETITOR_AND_RESOURCE_REGISTRY.md
+│   └── LAO_AI_RESOURCE_REGISTRY.md
 ├── examples/
 │   ├── sample_review_row.schema.json
 │   ├── sample_source_note.md
 │   └── sample_validation_report.md
-└── .github/
-    └── ISSUE_TEMPLATE/
 ```
 
 ## Data Safety Note
@@ -93,14 +93,7 @@ Only safe public documentation, methodology notes, issue templates, and clearly 
 
 ## Contribution Status
 
-Public contributions are welcome in cautious form:
-
-- suggest Lao NLP, OCR, dictionary, benchmark, or reference resources
-- suggest corrections to wording, methodology, or documentation
-- propose public-safe examples
-- ask about partnership or research collaboration
-
-Do not submit private, personal, sensitive, copyrighted, financial, or government-restricted raw material.
+Public contribution is not fully open yet. Do not submit external datasets, raw source material, private examples, personal data, financial records, copyrighted raw material, or government-restricted material.
 
 ## Key Documents
 

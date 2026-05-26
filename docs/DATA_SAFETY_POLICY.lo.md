@@ -1,8 +1,10 @@
-# ນະໂຍບາຍຄວາມປອດໄພຂໍ້ມູນ
+# Data Safety Policy
+ນະໂຍບາຍຄວາມປອດໄພຂໍ້ມູນ
 
 public repository ນີ້ສໍາລັບ documentation, methodology notes, issue templates, ແລະຕົວຢ່າງປອມທີ່ປອດໄພ. ມັນບໍ່ແມ່ນບ່ອນເກັບຂໍ້ມູນດິບ.
 
-## ສິ່ງທີ່ຫ້າມເຜີຍແຜ່ທີ່ນີ້
+## What Must Not Be Published Here
+ສິ່ງທີ່ຫ້າມເຜີຍແຜ່ທີ່ນີ້
 
 ຫ້າມເຜີຍແຜ່:
 
@@ -20,15 +22,18 @@ public repository ນີ້ສໍາລັບ documentation, methodology notes, 
 - copyrighted raw material ທີ່ບໍ່ມີສິດໃຊ້
 - ຂໍ້ມູນຈາກ `data/` folder
 
-## ຂໍ້ມູນທີ່ບໍ່ໄດ້ກວດ ບໍ່ແມ່ນຂໍ້ມູນທີ່ເຊື່ອຖືແລ້ວ
+## Unreviewed Data Is Not Trusted Data
+ຂໍ້ມູນທີ່ບໍ່ໄດ້ກວດ ບໍ່ແມ່ນຂໍ້ມູນທີ່ເຊື່ອຖືແລ້ວ
 
 repository ນີ້ບໍ່ເຜີຍແຜ່ຂໍ້ມູນທີ່ບໍ່ໄດ້ກວດໃນຖານະຂໍ້ມູນທີ່ເຊື່ອຖືແລ້ວ. candidate example, OCR output, parser output, ຫຼືຂໍ້ຄວາມທີ່ AI ສ້າງ ຕ້ອງລະບຸສະຖານະຢ່າງຊື່ສັດ ແລະຜ່ານການກວດກ່ອນ.
 
-## ໃຊ້ສະເພາະຕົວຢ່າງທີ່ປອດໄພ
+## Safe Examples Only
+ໃຊ້ສະເພາະຕົວຢ່າງທີ່ປອດໄພ
 
 ຕົວຢ່າງສາທາລະນະຄວນເປັນຕົວຢ່າງປອມ, ສັ້ນ, ແລະປອດໄພ. ມັນຄວນສະແດງ structure, fields, statuses, ແລະ methodology ໂດຍບໍ່ເປີດເຜີຍເນື້ອຫາສ່ວນຕົວ.
 
-## ເງື່ອນໄຂການຮັບຂໍ້ມູນ
+## Data Acceptance Requirements
+ເງື່ອນໄຂການຮັບຂໍ້ມູນ
 
 ກ່ອນວັດຖຸທີ່ຄ້າຍຂໍ້ມູນຈະຖືກຮັບເຂົ້າ public repo, ຕ້ອງຜ່ານ:
 
