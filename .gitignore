@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LAKI public repository safety ignores
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+node_modules/
+data/
+private/
+secrets/
+credentials/
+*.key
+*.pem
+*.csv
+*.xlsx
+*.db
+*.sqlite

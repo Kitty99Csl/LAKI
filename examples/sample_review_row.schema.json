@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Kitty99Csl/LAKI/examples/sample_review_row.schema.json",
+  "title": "LAKI Sample Review Row",
+  "description": "Schema for a fake, public-safe review row example. Do not use private or sensitive data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "language",
+    "domain",
+    "source_type",
+    "source_reference",
+    "input_text",
+    "normalized_text",
+    "review_status",
+    "reviewer_note",
+    "risk_level",
+    "created_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Public-safe identifier for the review row."
+    },
+    "language": {
+      "type": "string",
+      "enum": ["lo", "en", "mixed"],
+      "description": "Primary language of the row."
+    },
+    "domain": {
+      "type": "string",
+      "description": "Broad topic domain such as general, education, health, agriculture, finance_fake_example, or OCR_test."
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "official_public_institutional",
+        "academic_research",
+        "published_reference",
+        "community_native_speaker_note",
+        "ai_generated_candidate",
+        "unknown_unverified"
+      ]
+    },
+    "source_reference": {
+      "type": "string",
+      "description": "Safe citation, public URL, or fake source note. Do not include private source material."
+    },
+    "input_text": {
+      "type": "string",
+      "description": "Candidate text. For this public repo, use fake safe examples only."
+    },
+    "normalized_text": {
+      "type": "string",
+      "description": "Reviewed or normalized text, if available."
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "needs_review",
+        "reviewed",
+        "corrected",
+        "rejected",
+        "accepted_public_example"
+      ]
+    },
+    "reviewer_note": {
+      "type": "string",
+      "description": "Public-safe note about wording, source, uncertainty, or correction."
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "do_not_publish"]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
